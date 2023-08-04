@@ -36,5 +36,14 @@ This project implements a database system for a university E-learning management
   - Enter an exam in the legal time
   - Answer each assignment and view their answers
 # UI
-
+The data is stored in a MySQL dataset, and here we need a UI to access the dataset. To access the data from the UI, we start a connection to the MySQL dataset in Python, and the user can access and manipulate the data using CLI (command-line interface). The first time you run the main.py file, you are asked to enter your username and password. If your inputs are valid, you will see a list of actions based on your role (student or professor). In each step, you will see the instructions and be guided to reach your goal.
 # How to run
+1. Create a MySQL database
+2. Add some SQL files and create tables
+3. Load data into tables from the Excel file attached in the introduction section
+4. Run the main.py file
+5. Now you are connected to the database, and everything is ready to enjoy it ;)
+
+# Project description
+You can download this [PDF file](https://github.com/Mohadeseh-Atyabi/Database-system-for-E-learning-management-system/files/12261768/DB-00-2-FinalPrj.pdf)
+ and read more details about this project. Pay attention that this file is in Persian.
