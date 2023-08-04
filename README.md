@@ -20,7 +20,21 @@ This project implements a database system for a university E-learning management
 - submission: Shows the student's grade in an assignment
 
 # Capabalities
-
+- User (both student and professor)
+  - Login
+  - Logout
+  - Change the password
+  - View list of courses (for a professor, it is the list of courses to teach, and for a student, it is the list of taken courses)
+- Professor
+  - View the list of students for each class
+  - View the list of exams and assignments for each course
+  - Create new exams and assignments
+  - View the answers to each exam or assignment by selecting them
+  - Score each of the assignments
+- Student
+  - View the list of exams and assignments for each course
+  - Enter an exam in the legal time
+  - Answer each assignment and view their answers
 # UI
 
 # How to run
